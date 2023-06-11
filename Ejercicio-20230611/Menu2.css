@@ -1,0 +1,23 @@
+.cont_nav{
+    overflow: hidden;
+    background-color: #FCBA63;
+    font-family: Arial;
+}
+
+.cont_nav a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.cont_nav a:hover, #navegacion{
+    background-color: white;
+    color: #FCBA63;
+    font: bold;
+    font-size: 20px;
+
+}

@@ -1,0 +1,75 @@
+#menu {
+    position: relative;
+    background: #46461F url('../images/a16.gif') repeat-x;
+    height: 67px;
+    padding: 0px 20px 0px 5px;
+    margin: 98px 0px 20px 0px;
+}
+
+#container {
+    overflow: hidden;
+    background: none;
+    padding-top: 8px;
+
+}
+
+#container .principal {
+    float: left;
+    color: white;
+    border-right: 1px solid #FFF;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover,
+.dropdown:hover .dropbtn {
+    color: #488000;
+    background: #FAAF3B;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-right: 1px solid #FFF;
+}
+
+#container a.last {
+    border-right: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #46461F url('../images/a16.gif') repeat-x;
+    min-width: 137px;
+    margin-top: 37px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    float: none;
+    color: white;
+    background: #46461F url('../images/a16.gif') repeat-x;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+
+.dropdown-content a:hover {
+    color: #488000;
+    text-decoration: none;
+    background: #FAAF3B;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,80 @@
+body{
+    background: #b6ff00 url('img/ben10.jpg');
+}
+
+header img{
+    float: left;
+}
+
+#contenedor{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: lightblue;
+}
+
+#temas, #articulos, #objetivos{
+    height: 690px;
+}
+
+#temas{
+    width: 35%;
+    float: right;
+}
+
+#articulos{
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    margin: 0px auto 0px auto;
+}
+
+#objetivos{
+    width: 70%;
+    float: left;
+}
+
+#pie{
+    width: 100%;
+}
+
+ table{
+margin: 0px auto 0px auto;
+  border-style: solid;
+  border-color: rgb(27, 126, 37);
+  color: rgb(10, 27, 7);
+  padding: 5px 5px;
+  animation: 5s diseñoBorde infinite alternate;
+
+  border-radius: 20px;
+}
+
+td {
+    padding: 10px;
+  }
+  
+td:hover {
+    background-color: #a2b2ee;
+    transition: background-color 0.5ms
+}
+
+    @keyframes diseñoBorde {
+        25%{
+            border-color: #1b0112;
+        }
+        50%{
+            border-color: #5a0834;
+        }
+        75%{
+            border-color: #9d0b51;
+        }
+        100%{
+            border-color: #e44ec3;
+        }
+    }
+
+
